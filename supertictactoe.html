@@ -37,7 +37,7 @@
 							<h2>Overview</h2>
 							<p>Going into this project both of us wanted to work on something we had no experience in. Networking was a natural choice, so we had to figure out an interactive implementation of networking. Tic tac toe is a classic multiplayer game that was a logical game to use, and we went further to make it a mega tic tac toe game that included some more game-side logic.</p>
 							<ul class="actions vertical">
-								<li><a href="#" class="button">Learn More</a></li>
+								<li><a href="#implementation" class="button">Learn More</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -46,7 +46,7 @@
 					</section>
 
 				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<section id="implementation" class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Implementation</h2>
 							<p>The most unique part of this project was undoubtedly its multi-player aspect. From an architecture level, this was implemented most noticibly in the inclusion of two scripts, a server and a client. A copy of the client would run on each machine, but only one server instance should exist. The server script creates a server object from the server class, utilizing it to listen for new connections. Once the socket has been initialized and a client has connected the server creates a new model instance, and the model creates a new user which stores that player's color, as well as whether or not it is their turn. The server then echoes the state of the board back to all connected clients. Once both clients have connected they can begin to play. Upon further attempted connections the server rejects them, giving an appropriate error message.</p>
