@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  28 AUG 2017 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  28 AUG 2017 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,20 +1373,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `Resume.out' has not changed.
 (rerunfilecheck)             Checksum: A809EE9AAAE442146E7149BE26C3F5C4;337.
  ) 
 Here is how much of TeX's memory you used:
- 29259 strings out of 493029
- 531158 string characters out of 6136234
- 596555 words of memory out of 5000000
+ 29257 strings out of 493029
+ 531140 string characters out of 6136234
+ 595555 words of memory out of 5000000
  32310 multiletter control sequences out of 15000+600000
- 67821 words of font info for 89 fonts, out of 8000000 for 9000
+ 67738 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,58p,10358b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1395,7 +1395,7 @@ are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Resume.pdf (1 page, 195460 bytes).
+Output written on Resume.pdf (1 page, 195245 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
