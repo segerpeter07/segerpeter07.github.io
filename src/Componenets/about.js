@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import resume from '../resume_PM.pdf'
+
 export default class About extends Component {
   render() {
     return (
@@ -27,9 +30,7 @@ export default class About extends Component {
                 </p>
               </div>
               <div className="columns download">
-                <p>
-                  <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
-                </p>
+                  <a href={resume} target="_blank" className="button"><i className="fa fa-download" />Download Resume</a>
               </div>
             </div> {/* end row */}
           </div> {/* end .main-col */}
