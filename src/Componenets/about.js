@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import resume from '../resume.pdf'
+// import resume from '../resume.pdf'
+import resume from '../2019_Resume.pdf';
 
 export default class About extends Component {
   render() {
