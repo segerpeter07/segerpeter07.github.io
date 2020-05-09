@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Twitter Sentiment Analysis and Visualization</title>
+			<link rel=icon href="images/TwitterFeels/43-twitter-512.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/TwitterFeels/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Twitter Feels</h1>
+							<p class="major">A Python program built to analyze tweet sentiment to gauge emotion</p>
+							<ul class="actions vertical">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/TwitterFeels/bench-accounting-49025.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Sentiment Analysis</h2>
+							<p>According to Merriam-Webster Dictionary, 'sentiment' is defined as <blockquote>a view of or attitude toward a situation or event; an opinion.</blockquote></p>
+							<p>This program allows users to choose two twitter users and are given a graph of the resultant sentiment on a scale of -1 to 1.
+							This scale is based off of <a href="https://github.com/cjhutto/vaderSentiment" target="_blank">VADER (Valence Aware Dictionary and sEntiment Reasoner)</a> which is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.</a>
+							<ul class="actions vertical">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/TwitterFeels/austin-schmid-29637.jpg" alt="" />
+						</div>
+					</section>
+
+					<!-- System Architecture -->
+						<section class="wrapper style1 align-center">
+							<div class="inner">
+								<h2>System Architecture</h2>
+								<p>This project was part of a first year software design class taught at <a href="http://www.olin.edu/" target="_blank">Olin College of Engineering</a> in the spring of 2017.</p>
+								<p>Students were tasked with using an external data source and creating algorithms to extract meaningful results from these large datasets. I decided to use Twitter's API to extract the 200 most recent Tweets and wrote a simple sentiment analysis tool which analyses each Tweet as a whole and calculates a cumulative 'score' for all the tweets. The tool also features a word frequency algorithm that counts the number of words used as well as a ranking of the top 10 most frequently used words.
+							</div>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Data Visualization</h2>
+							<p>Gathering all this information wouldn't have much use if it were not able to be seen in a clear way. I created simple bar graphs that show a representation of the person's net sentiment score. The higher the bar, the more positive their score.</p>
+							<ul class="actions vertical">
+								<li><a href="demoimage.html" class="button" target="_blank">See More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/TwitterFeels/Tester_4.jpg" alt="" width="50%" height="50%" href="demoimage"/>
+						</div>
+					</section>
+
+
+				<!-- Six -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Tools Used</h2>
+							<p>This project relies heavily on multiple open-source libraries and packages to produce the content.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-diamond"></span>
+									<h3>HTML5UP.NET</h3>
+									<p>HTML5UP.NET was used to provide yet another beautiful website template. It was licesned under the Creative Commons License. <a href="https://html5up.net/" target="_blank">Learn more</a></p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-save"></span>
+									<h3>Twitter</h3>
+									<p>The Twitter API was used to grab the 200 most recent tweets for each user. <a href="https://dev.twitter.com/docs" target="_blank">Learn More</a></p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-bar-chart"></span>
+									<h3>Seaborn</h3>
+									<p>The Seaborn data visualization toolkit for Python provided an easy to use tool for creating the bar graphs. <a href="https://seaborn.pydata.org/examples/color_palettes.html" target="_blank">Learn More</a></p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-hashtag"></span>
+									<h3>Word Cloud</h3>
+									<p>A background word cloud generator was also included in the program to be turned on if desired. <a href="https://github.com/amueller/word_cloud" target="_blank">Learn more</a></p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-cog"></span>
+									<h3>VADER</h3>
+									<p>VADER Sentiment Analysis was used to analyze the tweets to create a score of positivity and negativity. <a href="https://github.com/cjhutto/vaderSentiment" target="_blank">Learn more</a></p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>More Of My Projects</h2>
+							<p>Feel free to check out <a href="https://peterhenryseger.com" target="_blank">my portfolio</a> and more of my work on my <a href="https://github.com/segerpeter07" target="_blank">github</a></p>
+							<ul class="icons">
+								<li><a href="https://github.com/segerpeter07/TextMining" class="icon style2 fa-github" target="_blank"><span class="label">Github</span></a></li>
+							</ul>
+							<p>&copy; Peter Seger 2017. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
