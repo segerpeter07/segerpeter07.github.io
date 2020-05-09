@@ -22,7 +22,7 @@ export const projectsData = [
         ]
     },
     {
-        title: 'Freelance Full-Stack & Deisgn @Bigserene',
+        title: 'Freelance Dev @Bigserene',
         modalTitle: 'Freelance Full-Stack & Deisgn @Bigserene | 2019 -',
         blurb: 'Working on building the next generation of social media insights.',
         iconPhoto: 'bigserene_logo_icon.png',
@@ -48,7 +48,7 @@ export const projectsData = [
     {
         title: 'Software Engineering Intern - Chalmers University',
         modalTitle: 'Software Engineering Intern - Chalmers University | 2017',
-        blurb: 'Built a schematic visualization tool.',
+        blurb: 'Built a schematic visualization tool for use in a verification system.',
         iconPhoto: 'chalmers.jpg',
         coverPhoto: 'chalmers.jpg',
         suplimentalPhotos: [
